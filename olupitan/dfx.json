@@ -1,0 +1,15 @@
+{
+  "canisters": {
+    "olupitan": {
+      "main": "src/olupitan/main.mo",
+      "type": "motoko"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8022",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
